@@ -5,7 +5,7 @@
 /* Styling header and navigation bar */
 header{
     margin-top: 5%;
-    background-image: url("/images/img1.png");
+    background-image: url("./images/img1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
@@ -122,7 +122,6 @@ nav{
     position: relative;
     cursor: pointer;
     transition: background-color 0.7s ease;
-
 }
 #select:hover{
     background-color: rgb(229, 228, 228);
@@ -155,6 +154,10 @@ nav{
     border: 0px;
     background-image: linear-gradient(to right,white,rgb(214, 78, 78));
     cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+.travel-details:hover{
+    box-shadow: 5px 0px 20px rgb(178, 84, 84);
 }
 .travel-details-child{
     width: 90%;
@@ -200,12 +203,11 @@ nav{
     background-color: white;
     box-sizing: border-box;
     border: 1px solid rgb(241, 238, 238);
-    transition: background-color 0.5s ease;
+    transition: box-shadow 0.3s ease;
 }
 .revert-btn:hover{
-    background-color: rgb(236, 236, 236);
     color: black;
-    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px gray;
 }
 .to{
     width: 30%;
@@ -227,7 +229,6 @@ nav{
     font-size: 20px;
     color: rgb(128, 125, 125);
 }
-
 .date{
     width: 24%;
     border: 0px;
@@ -253,4 +254,63 @@ nav{
     font-weight: bolder;
     align-items: center;
     transition: background-color 0.3s ease;
+
+}
+/* Section2 */
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 63.25%;
+    height: 35vh;
+    margin: auto;
+    margin-top: -4.6%;
+    box-sizing: border-box;
+    border-radius: 32px;
+    background-color: white;
+    box-shadow: 0px 0px 35px rgb(106, 104, 104);
+}
+/* Child 1 */
+.sec2div1{
+    display: flex;
+    margin: 3%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sd1txt{
+    font-family: Lucida Sans;
+    color: rgb(69, 68, 68);
+}
+.sd1btn-div{
+    width: 11%;
+    height: 44px;
+    margin-top: -0.5%;
+    margin-right: -0.5%;
+    background-color: white;
+}
+.sd1btn{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(117, 117, 117);
+    color: rgb(34, 34, 255);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Child 2 */
+.sec2div2{
+    display: flex;
+}
+.sd2div2child1{
+    
+}
+.sd2div2child2{
+
+}
+.sd2div2child3{
+
+}
+.sd2div2child4{
+
 }

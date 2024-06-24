@@ -19,6 +19,7 @@ nav{
     height: 100px;
     position: fixed;
     top: 0;
+    z-index: 5;
     box-sizing: border-box;
 
     padding: 1% 18.5%;
@@ -29,9 +30,6 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 5%;
-}
-.div-1a{
-    
 }
 .div-1b{
     margin-top: 1.5%;
@@ -98,10 +96,19 @@ nav{
 }
 .div-1f{
     width: 7%;
-    margin-top: 1.7%;
+    margin-top: 1.5%;
     margin-left: -3%;
     display: flex;
+    box-sizing: border-box;
     justify-content: space-around;
+    color: rgb(107, 104, 104);
+}
+.user-icon{
+    z-index: 1;
+    font-size: 22px;
+    position: absolute;
+    top: 43%;
+    right: 23%;
 }
 #select{
     border: 1px solid white;
@@ -109,6 +116,7 @@ nav{
     height: 33px;
     width: 115px;
     padding-left: 30px;
+    color: rgb(107, 104, 104);
     font-size: 14px;
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -119,10 +127,130 @@ nav{
 #select:hover{
     background-color: rgb(229, 228, 228);
 }
-.user-icon{
-    z-index: 1;
-    font-size: 22px;
+.section1{
+    width: 60%;
+    margin: auto;
+    margin-top: -0.5%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+    position: relative;
+}
+.sec1-txt{
+    font-family: system-ui;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+}
+.travel-details{
+    width: 87%;
+    z-index: 4;
+    margin-left: 1%;
+    height: 112px;
+    border-radius: 35px;
+    border: 0px;
+    background-image: linear-gradient(to right,white,rgb(214, 78, 78));
+    cursor: pointer;
+}
+.travel-details-child{
+    width: 90%;
+    margin: auto;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    height: 112px;
+}
+.from{
+    width: 25%;
+    border: 0px;
+    border-right: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 244, 244);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: system-ui;
+    box-sizing: border-box;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    position: relative;
+}
+.bus-from{
+    z-index: 4;
     position: absolute;
-    top: 45%;
-    right: 23%;
+    top: 75%;
+    left: 9.5%;
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+}
+.revert-btn{
+    position: absolute;
+    z-index: 3;
+    top: 70%;
+    left: 29.2%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: rgb(128, 125, 125);
+    font-size: 16px;
+    font-weight: 100;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(241, 238, 238);
+    transition: background-color 0.5s ease;
+}
+.revert-btn:hover{
+    background-color: rgb(236, 236, 236);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+.to{
+    width: 30%;
+    border: 0px;
+    border-right: 1px solid rgb(221, 221, 221);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: system-ui;
+    padding-bottom: 4.2%;
+    padding-left: 7.5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.bus-to{
+    z-index: 3;
+    position: absolute;
+    top: 75%;
+    left: 33.5%;
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+}
+
+.date{
+    width: 24%;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding-right: 18%;
+    font-size: 24px;
+    cursor: pointer;
+}
+.search-btn{
+    width: 19%;
+    border: 0px;
+    color: white;
+    background-color: rgb(218, 81, 81);
+    cursor: pointer;
+    display: flex;
+    box-sizing: content-box;
+    padding-top: 0.2%;
+    padding-left: 3.8%;
+    margin-right: -2.1%;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    transition: background-color 0.3s ease;
 }

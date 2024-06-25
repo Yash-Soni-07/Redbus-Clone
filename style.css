@@ -21,10 +21,9 @@ nav{
     top: 0;
     z-index: 5;
     box-sizing: border-box;
-
     padding: 1% 18.5%;
-    
     background-color: rgb(255, 255, 255);
+    box-shadow: 0px -10px 50px rgb(142, 139, 139);
 }
 .div-1{
     display: flex;
@@ -261,13 +260,14 @@ nav{
     display: flex;
     flex-direction: column;
     width: 63.25%;
-    height: 35vh;
+    height: 33vh;
     margin: auto;
-    margin-top: -4.6%;
+    margin-top: -4%;
+    margin-right: 18%;
     box-sizing: border-box;
     border-radius: 32px;
     background-color: white;
-    box-shadow: 0px 0px 35px rgb(106, 104, 104);
+    box-shadow: 0px 10px 10px rgb(212, 212, 212);
 }
 /* Child 1 */
 .sec2div1{
@@ -284,7 +284,7 @@ nav{
     width: 11%;
     height: 44px;
     margin-top: -0.5%;
-    margin-right: -0.5%;
+    margin-right: -0.2%;
     background-color: white;
 }
 .sd1btn{
@@ -298,19 +298,66 @@ nav{
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.sd1btn:hover{
+    box-shadow: 0px 2px 5px rgb(199, 199, 199);
+}
 /* Child 2 */
 .sec2div2{
+    width: 1157px;
     display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: auto;
+    box-sizing: border-box;
+    padding-left: 1.6%;
+    margin-top: -0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    gap: 25px;
+    scrollbar-width: 10%;
 }
 .sd2div2child1{
-    
+    height: 168px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgba(41, 41, 148, 0.948),rgba(0, 0, 255, 0.822));
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
 }
 .sd2div2child2{
-
+    height: 168px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgb(119, 1, 1),rgba(255, 0, 0, 0.756));
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
 }
 .sd2div2child3{
-
+    height: 168px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgba(19, 111, 19, 0.847),rgba(46, 191, 46, 0.847));
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
 }
 .sd2div2child4{
-
+    height: 168px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgba(0, 139, 139, 0.797),rgba(173, 216, 230, 0.792));
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    height: 33vh;
+    margin: auto;
+    margin-top: 3%;
+    box-sizing: border-box;
+    border-radius: 32px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(212, 212, 212);
 }

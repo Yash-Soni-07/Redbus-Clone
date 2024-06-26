@@ -384,6 +384,8 @@ nav{
     font-family: system-ui;
     margin-right: 6%;
 }
+
+/* SECTION 3 */
 .section3{
     display: flex;
     flex-direction: column;
@@ -410,20 +412,103 @@ nav{
 }
 .s3d2{
     margin-top: 2%;
+    margin-left: 2%;
+    width: 97%;
+    gap: 8px;
 }
 .s3d2chs{
     height: 235px;
     width: 500px;
+    margin-top: -1%;
+    margin-left: -5%;    
+    background-image: linear-gradient(to right,white,white);
 }
-.s3d2ch1{
-    background-image: url(./images/img8.png);
-}
-.s3d2ch2{
 
+/* SECTION 4 */
+.section4{
+    display: flex;
+    flex-direction: row;
+    width: 63%;
+    height: 634px;
+    margin: auto;
+    margin-top: 5.8%;
+    margin-left: 19%;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    gap: 185px;
 }
-.s3d2ch3{
-
+.s4d1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.s3d2ch4{
+.s4d1a{
+    width: 41%;
+    border-bottom: 3px solid red;
+    display: flex;
+    margin-left: -0.5%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.s4d1a1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    margin-left: -8.2%;
+    margin-right: -2.5%;
+    margin-top: -2.5%;
+}
+.img3a{
+    width: 25%;
+}
+.img18{
+    width: 100%;
+}
+.s4d1c{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.s4d1c1{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.s4d1d{
+    display: flex;
+    flex-direction: column;
+}
+.s4d1d-btn{
+    width: 225px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0px solid black;
+    padding-top: 18px;
+    background-color: rgba(201, 27, 27, 0.77);
+    color: white;
+    font-size: 18px;font-weight: bolder;
 
+    border-radius: 20px;
+    gap: 10px;
+}
+
+
+
+.s4d2{
+    width: 40%;
+    margin-right: -10%;
+    background-image: linear-gradient(180deg,rgba(44, 44, 212, 0.267),rgba(235, 128, 146, 0.278));
+    border-radius: 40px;
+}
+.img17{
+    width: 33%;
+    position: absolute;
+    top: 152%;
+    left: 52.5%;
 }
